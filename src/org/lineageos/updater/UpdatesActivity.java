@@ -120,8 +120,7 @@ public class UpdatesActivity extends UpdatesListActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         TextView headerTitle = (TextView) findViewById(R.id.header_title);
-        headerTitle.setText(getString(R.string.header_title_text,
-                BuildInfoUtils.getBuildVersion()));
+        headerTitle.setText(getString(R.string.header_title_text));
 
         updateLastCheckedString();
 
