@@ -44,6 +44,7 @@ public final class Constants {
     public static final String PROP_DEVICE = "ro.custom.device";
     public static final String PROP_NEXT_DEVICE = "ro.updater.next_device";
     public static final String PROP_RELEASE_TYPE = "ro.custom.buildtype";
+    public static final String PROP_HORNBILL_RELEASE_TYPE = "ro.custom.android.version";
     public static final String PROP_UPDATER_ALLOW_DOWNGRADING = "lineage.updater.allow_downgrading";
     public static final String PROP_UPDATER_URI = "lineage.updater.uri";
 
